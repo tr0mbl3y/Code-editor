@@ -1,3 +1,4 @@
+//aplying custom types to middleware earlier  typescript was giving error
 import { RootState } from "../reducers";
 import { Action } from "../actions";
 

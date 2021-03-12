@@ -27,6 +27,7 @@ const reducer = produce((state: CellsState = initialState, action: Action) => {
       state.data[id].content = content;
       //immer documentation gotch :say that you dont have to return anything from reducer
       //but typescript will throw error so to make typescript happy we return 'state'
+      //overall no need of returning "state"
       return state;
 
     case ActionType.DELETE_CELL:

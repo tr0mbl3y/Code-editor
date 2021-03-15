@@ -3,7 +3,7 @@ import { useActions } from '../hooks/use-actions';
 
 interface AddCellProps {
     previousCellId: string | null;
-    //? means this is just optionl
+    //? means this is just optional
     forceVisible?: boolean;
 }
 
